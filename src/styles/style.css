@@ -1,0 +1,31 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.scoreboard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.display{
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+    height: 100vh;
+  
+   
+}
+.card{
+    width:20%;
+    height:30%;
+    padding: 10px;
+    border-radius:5px;
+}
+.card-color{
+    height:70%;
+}
+.card-text{
+    height:30%;
+    background-color: white;
+}
